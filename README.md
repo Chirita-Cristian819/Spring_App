@@ -14,7 +14,12 @@ First Header  |
 **PATCH** http:localhost:8080/v1/api/person/{id} -> partially update entry based on id with 
 **RequestParam** for PATCH -> "updateMask": field1,field2,field3... | 
 
-The Application uses Spring Mapping for ORM, Java 16, lombok
+The application has two configurations for the DAO:
+* **LocalPersonDataAccessService.java** class for using an ArrayList to save data while the application is running
+* **MySQLPersonDataAccessService.java** class for using MySQL as a datasource
+
+
+The Application uses Spring Mapping for ORM, Java 16, lombok, tomcat application server
 
 ## Configuration ##
 
