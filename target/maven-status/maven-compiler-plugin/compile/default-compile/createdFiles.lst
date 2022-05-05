@@ -1,0 +1,9 @@
+com\example\springApp\api\PersonController.class
+com\example\springApp\service\PersonService.class
+com\example\springApp\DemoApplication.class
+com\example\springApp\DAO\MySQLPersonDataAccessService.class
+com\example\springApp\model\Person.class
+com\example\springApp\DAO\FakePersonDataAccessService.class
+com\example\springApp\DAO\PersonDao.class
+com\example\springApp\datasources\MySQLDatasource.class
+com\example\springApp\utils\UUIDAdapter.class
