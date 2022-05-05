@@ -18,7 +18,9 @@ The Application uses Spring Mapping for ORM, Java 16, lombok
 
 ## Configuration ##
 
-!Under the **resource** folder, the **application.properties** file defines the connection parameters to a remotely to the database. Application has a simple MySQL script attached to define the database 
+!Under the **resource** folder, the **application.properties** file defines the connection parameters to a database. Config details to a remotely hosted database have been provided to test the API out-of-the-box
+
+Application has a MySQL script attached as well to create the database locally
 
 ## Running the application ##
 To use the application simply run the project in an IDE or build the JAR and make requests to the specific endpoints
