@@ -28,7 +28,7 @@ The Application uses Spring Mapping for ORM, Java 16, lombok, tomcat application
 Application has a MySQL script attached as well to create the database locally
 
 ## Running the application ##
-To use the application simply run the project in an IDE or build the JAR and make requests to the specific endpoints
+To use the application simply run the project in an IDE or build the JAR, run the app to start Tomcat and make requests to the specific endpoints
 
 
 
